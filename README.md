@@ -27,11 +27,11 @@ Tip's name position should be the same as `UIView`'s in `TipsViews.xib`
 ```
 
 ### Using styles in tips
-#####Why we need it?
+#####Why I need it?
 Some times you need show tip for text that is changing(ex: titles,names) and in `TipsViews.xib` we have static text. Same situation on background color: some times color depends on contex and we can't set static in `.xib` file.
 
 #####Which styles can I change?
-For now you can change next styles of views:
+For now you can change next styles of subviews:
 
 - _Text_        -      `TMViewStyleTypeText`
 
@@ -40,7 +40,7 @@ For now you can change next styles of views:
 - _Corner radius_  -   `TMViewStyleTypeCornerRadius`
 
 
-#####How we use it?
+#####How I use it?
 1) If you want to use styles with tip's **subviews** you should set this **subviews** tags to determine different subviews
 
 ![](https://raw.github.com/IhorShevchuk/TMTipsKit/readmeBranch/TipsKit/tagHelp.png)
