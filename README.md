@@ -28,11 +28,11 @@ Some times you need show tip for text that is changing(ex: titles,names) and in 
 #####Which styles can I change?
 For now you can change next styles of views:
 
-1) Text        -      TMViewStyleTypeText
+1) _Text_        -      `TMViewStyleTypeText`
 
-2) Backgroud color  - TMViewStyleTypeBackgroundColor
+2) _Backgroud color_  - `TMViewStyleTypeBackgroundColor`
 
-3) Corner radius  -   TMViewStyleTypeCornerRadius
+3) _Corner radius_  -   `TMViewStyleTypeCornerRadius`
 
 
 #####How we use it?
@@ -52,3 +52,10 @@ One object can be inited in this way
 where `viewStyles` is `NSArray` object of `TMViewStyle` objects.
 
 ## License
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
