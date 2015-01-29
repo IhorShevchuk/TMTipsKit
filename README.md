@@ -7,6 +7,7 @@ This simple tips and hints kit was created to make process with creating and des
 
 ## Installation
 1) Add Folder `TipsAndHints` to project
+
 2) Import file `TMTipsKit.h` to files where tips will be shown
 
 ## Usage
@@ -40,7 +41,7 @@ For now you can change next styles of views:
 
 
 #####How we use it?
-1) If you want you to use styles with tip's **subviews** you should set this **subviews** tags to determine different subviews
+1) If you want to use styles with tip's **subviews** you should set this **subviews** tags to determine different subviews
 
 ![](https://raw.github.com/IhorShevchuk/TMTipsKit/readmeBranch/TipsKit/tagHelp.png)
 
