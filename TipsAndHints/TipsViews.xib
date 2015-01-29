@@ -38,15 +38,8 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXg-2q-lAp">
                     <rect key="frame" x="0.0" y="50" width="375" height="573"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom-angled-arrow-white" translatesAutoresizingMaskIntoConstraints="NO" id="u3w-Nx-GGf">
-                            <rect key="frame" x="20" y="490" width="75" height="75"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="75" id="Lpo-JY-w2Y"/>
-                                <constraint firstAttribute="height" constant="75" id="m70-Er-U0F"/>
-                            </constraints>
-                        </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is buttons to navigate on this srcreen " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkw-aJ-FAn">
-                            <rect key="frame" x="103" y="490" width="188" height="41"/>
+                            <rect key="frame" x="88" y="435" width="207" height="41"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -64,6 +57,13 @@
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom-arrow-straight-white" translatesAutoresizingMaskIntoConstraints="NO" id="u3w-Nx-GGf">
+                            <rect key="frame" x="20" y="465" width="60" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="Lpo-JY-w2Y"/>
+                                <constraint firstAttribute="height" constant="100" id="m70-Er-U0F"/>
+                            </constraints>
+                        </imageView>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.75" colorSpace="calibratedWhite"/>
                     <constraints>
@@ -74,7 +74,7 @@
                         <constraint firstItem="u3w-Nx-GGf" firstAttribute="leading" secondItem="xXg-2q-lAp" secondAttribute="leading" constant="20" id="Owm-VW-hTo"/>
                         <constraint firstItem="od1-aO-oxD" firstAttribute="centerX" secondItem="7ql-JG-6aO" secondAttribute="centerX" constant="50" id="URy-Iy-SLN"/>
                         <constraint firstAttribute="bottom" secondItem="u3w-Nx-GGf" secondAttribute="bottom" constant="8" id="XYB-I7-1Pg"/>
-                        <constraint firstItem="u3w-Nx-GGf" firstAttribute="top" secondItem="Bkw-aJ-FAn" secondAttribute="top" id="Yxk-FE-h42"/>
+                        <constraint firstItem="u3w-Nx-GGf" firstAttribute="top" secondItem="Bkw-aJ-FAn" secondAttribute="top" constant="30" id="Yxk-FE-h42"/>
                         <constraint firstAttribute="trailing" secondItem="od1-aO-oxD" secondAttribute="trailing" constant="8" id="aC2-gU-dVi"/>
                         <constraint firstItem="Bkw-aJ-FAn" firstAttribute="leading" secondItem="u3w-Nx-GGf" secondAttribute="trailing" constant="8" id="uSe-hu-ENf"/>
                     </constraints>
@@ -104,7 +104,7 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top-arrow-straight-white" translatesAutoresizingMaskIntoConstraints="NO" id="ROs-cb-9Fe">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top-fill-arrow-white" translatesAutoresizingMaskIntoConstraints="NO" id="ROs-cb-9Fe">
                     <rect key="frame" x="113" y="158" width="50" height="90"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="90" id="CcC-yG-SzX"/>
@@ -175,9 +175,10 @@
         </view>
     </objects>
     <resources>
-        <image name="bottom-angled-arrow-white" width="142" height="141"/>
+        <image name="bottom-arrow-straight-white" width="60" height="100"/>
         <image name="bottom-arrow-white" width="106" height="169"/>
         <image name="flagIcon" width="85" height="85"/>
         <image name="top-arrow-straight-white" width="109" height="146"/>
+        <image name="top-fill-arrow-white" width="50" height="90"/>
     </resources>
 </document>

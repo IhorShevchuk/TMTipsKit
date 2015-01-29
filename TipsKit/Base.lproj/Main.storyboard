@@ -97,7 +97,9 @@
                             <outlet property="delegate" destination="tWF-SX-fua" id="qiV-vd-F5M"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Tipskit examples" id="HWs-Y4-FLt"/>
+                    <navigationItem key="navigationItem" title="Tipskit examples" id="HWs-Y4-FLt">
+                        <barButtonItem key="backBarButtonItem" title="Tipskit" id="qqT-Fd-XbK"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zpo-SU-NEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
