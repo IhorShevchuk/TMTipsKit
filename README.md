@@ -16,6 +16,10 @@ This simple tips and hints kit was created to make process with creating and des
 ```objectivec
     [[TMTipsKit sharedInstance] initWithTipsNames:@[@"SimpleTip",@"SimpleTipTwo",@"SimpleTipsWithStyles"]];
 ```
+Tip's name position should be the same as in `UIView` in `TipsViews.xib`
+
+![](https://raw.github.com/IhorShevchuk/TMTipsKit/readmeBranch/TipsKit/viewsPositionHelp.png)
+
 3) Show tip in view using code
 ```objectivec
     [[TMTipsKit sharedInstance]  showTipWithName:@"SimpleTipTwo" forView:[self view]];
