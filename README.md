@@ -28,7 +28,7 @@ Tip's name position should be the same as `UIView`'s in `TipsViews.xib`
 
 ### Using styles in tips
 #####Why I need it?
-Some times you need show tip for text that is changing(ex: titles,names) and in `TipsViews.xib` we have static text. Same situation on background color: some times color depends on contex and we can't set static in `.xib` file.
+Some times you need to show tip for text that is changing(ex: titles,names) and in `TipsViews.xib` we have static text. Same situation on background color: some times color depends on contex and we can't use static in `.xib` file.
 
 #####Which styles can I change?
 For now you can change next styles of subviews:
@@ -48,7 +48,7 @@ For now you can change next styles of subviews:
 2) Init an `NSArray` of `TMViewStyle` objects.
 One object can be inited in this way
 ```objectivec
-    TMViewStyle *viewStyle= [[TMViewStyle alloc]initWithViewTag:1 style:TMViewStyleTypeText andValue:customLabel.text]
+    TMViewStyle *viewStyle = [[TMViewStyle alloc]initWithViewTag:1 style:TMViewStyleTypeText andValue:customLabel.text]
  ```
 3) And show tip using next way
 ```objectivec
