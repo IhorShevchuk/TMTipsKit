@@ -2,8 +2,8 @@
 
 This simple tips and hints kit was created to make process with creating and designing tip easier. 
 
-![](https://raw.github.com/IhorShevchuk/TMTipsKit/readmeBranch/TipsKit/screen-2.png)
-![](https://raw.github.com/IhorShevchuk/TMTipsKit/readmeBranch/TipsKit/screen-3.png)
+![](https://raw.github.com/IhorShevchuk/TMTipsKit/master/TipsKit/screen-2.png)
+![](https://raw.github.com/IhorShevchuk/TMTipsKit/master/TipsKit/screen-3.png)
 
 ## Installation
 1) Add Folder `TipsAndHints` to project
@@ -19,7 +19,7 @@ This simple tips and hints kit was created to make process with creating and des
 ```
 Tip's name position should be the same as `UIView`'s in `TipsViews.xib`
 
-![](https://raw.github.com/IhorShevchuk/TMTipsKit/readmeBranch/TipsKit/viewsPositionHelp.png)
+![](https://raw.github.com/IhorShevchuk/TMTipsKit/master/TipsKit/viewsPositionHelp.png)
 
 3) Show tip in view using code
 ```objectivec
@@ -43,7 +43,7 @@ For now you can change next styles of subviews:
 #####How I use it?
 1) If you want to use styles with tip's **subviews** you should set this **subviews** tags to determine different subviews
 
-![](https://raw.github.com/IhorShevchuk/TMTipsKit/readmeBranch/TipsKit/tagHelp.png)
+![](https://raw.github.com/IhorShevchuk/TMTipsKit/master/TipsKit/tagHelp.png)
 
 2) Init an `NSArray` of `TMViewStyle` objects.
 One object can be inited in this way
