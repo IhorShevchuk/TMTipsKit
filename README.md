@@ -26,10 +26,14 @@ This simple tips and hints kit was created to make process with creating and des
 Some times you need show tip for text that is changing(ex: titles,names) and in `TipsViews.xib` we have static text. Same situation on background color: some times color depends on contex and we can't set static in `.xib` file.
 
 #####Which styles can I change?
-For now you can change next styles of views
+For now you can change next styles of views:
+
 1) Text        -      TMViewStyleTypeText
+
 2) Back groud color - TMViewStyleTypeBackgroundColor
+
 3) Corner radius  -   TMViewStyleTypeCornerRadius
+
 
 #####How we use it?
 1) If you want you to use styles with tips subviews you should set this subviews tags to determine different subviews
