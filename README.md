@@ -30,7 +30,7 @@ For now you can change next styles of views:
 
 1) Text        -      TMViewStyleTypeText
 
-2) Back groud color - TMViewStyleTypeBackgroundColor
+2) Backgroud color  - TMViewStyleTypeBackgroundColor
 
 3) Corner radius  -   TMViewStyleTypeCornerRadius
 
