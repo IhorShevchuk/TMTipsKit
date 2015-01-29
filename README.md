@@ -32,15 +32,15 @@ Some times you need show tip for text that is changing(ex: titles,names) and in 
 #####Which styles can I change?
 For now you can change next styles of views:
 
-1) _Text_        -      `TMViewStyleTypeText`
+- _Text_        -      `TMViewStyleTypeText`
 
-2) _Backgroud color_  - `TMViewStyleTypeBackgroundColor`
+- _Backgroud color_  - `TMViewStyleTypeBackgroundColor`
 
-3) _Corner radius_  -   `TMViewStyleTypeCornerRadius`
+- _Corner radius_  -   `TMViewStyleTypeCornerRadius`
 
 
 #####How we use it?
-1) If you want you to use styles with tips subviews you should set this subviews tags to determine different subviews
+1) If you want you to use styles with tip's **subviews** you should set this **subviews** tags to determine different subviews
 
 ![](https://raw.github.com/IhorShevchuk/TMTipsKit/readmeBranch/TipsKit/tagHelp.png)
 
