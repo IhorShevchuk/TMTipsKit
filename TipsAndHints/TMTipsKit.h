@@ -23,6 +23,12 @@
  *  sets all tips shouldShow property to YES
  */
 - (void)resetTipsStatus;
+/**
+ *  Returns bool value depends on tips kit inited or not
+ *
+ *  @return YES if tips kit inited and NO if not
+ */
+- (BOOL)isTipsKitInited;
 
 - (BOOL)shouldShowTipForItemWithName:(NSString *)name;
 - (void)setshouldShowTip:(BOOL)show forItemWithName:(NSString *)name;

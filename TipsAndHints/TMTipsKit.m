@@ -69,6 +69,11 @@
     [defaults setObject:toolTipDictionary forKey:TipsItemInDefaults];
     [defaults synchronize];
 }
+- (BOOL)isTipsKitInited
+{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    return [defaults objectForKey:TipsItemInDefaults] != nil;
+}
 - (BOOL)shouldShowTipForItemWithName:(NSString *)name {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSDictionary *toolTipDictionary = [defaults objectForKey:TipsItemInDefaults];
